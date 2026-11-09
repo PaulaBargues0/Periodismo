@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cádiz, la Tacita de Plata</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        main {
+            max-width: 800px;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #0056b3;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+            text-align: justify;
+        }
+
+        .media-container {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            align-items: center;
+        }
+
+        img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .video-wrapper {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+            height: 0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <h1>Cádiz: La Tacita de Plata</h1>
+        
+        <p>
+            Considerada la ciudad viva más antigua de Occidente, Cádiz es una península rodeada casi por completo por el Océano Atlántico. Conociéndose popularmente como la "Tacita de Plata", destaca por la calidez de su gente, sus playas de arena dorada como La Caleta, sus emblemáticos carnavales y un casco histórico repleto de plazas con encanto, torres mirador y monumentos tan imponentes como su Catedral sobre el mar.
+        </p>
+
+        <div class="media-container">
+            <!-- Fotografía de Cádiz -->
+            <img src="https://images.unsplash.com/photo-1561642699-281a0293fa5c?auto=format&fit=crop&w=1000&q=80" alt="Catedral y costa de Cádiz">
+
+            <!-- Vídeo embebido sobre Cádiz -->
+            <div class="video-wrapper">
